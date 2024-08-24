@@ -59,7 +59,7 @@ export function Minv3() {
             </Link>
             <Link
               href="#"
-              className="text-sm font-medium hover:underline underline-offset-4 dark:text-gray-400 dark:hover:text-gray-300"
+              className="text-sm font-medium  text/strong  hover:underline underline-offset-4 dark:text-gray-400 dark:hover:text-gray-300"
               prefetch={false}
             >
               Contact
@@ -75,10 +75,10 @@ export function Minv3() {
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] justify-center">
               <div className="flex flex-col justify-center space-y-4 items-center">
                 <div className="space-y-2 text-center">
-                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none dark:text-gray-300">
+                  <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none dark:text-gray-300 items-center justify-center">
                     Elevate Your Online Presence with Acme Web Development
                   </h1>
-                  <p className="max-w-[600px] text-muted-foreground md:text-xl dark:text-gray-400">
+                  <p className="max-w-[600px] text-muted-foreground md:text-xl dark:text-gray-400 justify-center text-center " >
                     Our team of experienced web developers specializes in creating custom, responsive websites that
                     drive results for your business.
                   </p>
@@ -101,16 +101,16 @@ export function Minv3() {
                 </div>
               </div>
               <img
-                src="/placeholder.svg"
+                src="/marketing-campaign-90.png"
                 width="550"
                 height="550"
                 alt="Hero"
-                className="mx-auto aspect-video overflow-hidden rounded-2xl object-cover sm:w-full lg:order-last lg:aspect-square"
+                // className="mx-auto aspect-video overflow-hidden rounded-2xl object-cover sm:w-full lg:order-last lg:aspect-square"
               />
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-20 lg:py-28 flex justify-center bg-white dark:bg-gray-900">
+        <section className="w-full py-12 md:py-20 lg:py-28 flex justify-center bg-white dark:bg-gray-900 dark:bg-gray-800" >
           <div className="container px-4 md:px-6 flex justify-center flex-col items-center">
             <div className="space-y-2 text-center">
               <div className="inline-block rounded-lg bg-muted px-3 py-1 text-sm dark:bg-gray-700 dark:text-gray-400">
