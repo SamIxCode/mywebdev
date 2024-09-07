@@ -15,13 +15,13 @@ export function Main5() {
           <div className="container px-4 md:px-6 flex justify-center">
             <div className="grid gap-6 lg:grid-cols-[1fr_400px] lg:gap-12 xl:grid-cols-[1fr_600px] justify-center">
               <div className="flex flex-col justify-center space-y-4 items-center">
-                <div className="space-y-2 text-center">
+                <div className="space-y-2 text-center justify-center w-full">
                   <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none text-gray-300">
                     Posunťe svoje Podnikanie <span className=" text-blue-500">o krok ďalej</span> v online sfére
                   </h1>
-                  <p className="max-w-[600px] text-gray-400 md:text-xl">
-                    Our team of experienced web developers specializes in creating custom, responsive websites that
-                    drive results for your business.
+                  <p className=" mx-9 text-gray-400 md:text-xl  text-center">
+                 
+Vývoj webových stránok špecializovaný na vytváranie vlastných, responzívnych webových stránok, ktoré prinášajú výsledky pre vaše podnikanie.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row justify-center">
@@ -30,14 +30,14 @@ export function Main5() {
                     className="inline-flex h-10 items-center justify-center rounded-md bg-gray-700 px-8 text-sm font-medium text-gray-300 shadow transition-colors hover:bg-gray-600 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
-                    Learn More
+                    Viac
                   </Link>
                   <Link
                     href="#"
                     className=" text-white inline-flex h-10 items-center justify-center rounded-md border border-gray-600 bg-gray-800 px-8 text-sm font-medium shadow-sm transition-colors hover:bg-gray-700 hover:text-gray-300 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50"
                     prefetch={false}
                   >
-                    Contact Us
+                    Kontakt
                   </Link>
                 </div>
               </div>
@@ -57,14 +57,13 @@ export function Main5() {
               <div className="inline-block rounded-lg bg-gray-700 px-3 py-1 text-sm text-gray-400">Naše Portfólio</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-300">Projekty</h2>
               <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Take a look at some of the custom websites we've created for our clients. From e-commerce to corporate
-                branding, we've got you covered.
+               
                 Prezrite naše na mieru vytvorené stránok pre našich klietntov. Od e-commerce až po branding, sme tu pre Vás.
               </p>
             </div>
             <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12 justify-center">
               <Image
-                src="/placeholder.svg"
+                src="/webdev_ilu_2.png"
                 width={550}
                 height={310}
                 alt="Portfolio Item"
@@ -150,19 +149,19 @@ export function Main5() {
                 <label htmlFor="name" className="block text-sm font-medium text-gray-400">
                   Meno, názov Firmy
                 </label>
-                <Input id="name" placeholder="Enter your name" className="mt-1 block w-full" />
+                <Input id="name" placeholder="Acme S.r.o / Ján Novák" className="mt-1 block w-full" />
               </div>
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-400">
                   Email
                 </label>
-                <Input id="email" type="email" placeholder="Enter your email" className="mt-1 block w-full" />
+                <Input id="email" type="email" placeholder="mail@acme.com" className="mt-1 block w-full" />
               </div>
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-400">
                   Správa
                 </label>
-                <Textarea id="message" placeholder="Enter your message" className="mt-1 block w-full" />
+                <Textarea id="message" placeholder="Hi! I want a new website :)" className="mt-1 block w-full" />
               </div>
               <Button className="w-full bg-gray-700 text-gray-300 hover:bg-gray-600">Odoslať správu</Button>
             </form>
