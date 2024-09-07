@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-* {
-  outline: 0.0px solid rgb(41, 41, 41);
-}
 
+* {
+  outline: 0.0px solid rgb(255, 0, 0);
+}

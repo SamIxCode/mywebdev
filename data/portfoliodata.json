@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "Acme Clothing",
+        "description": "A modern e-commerce website for a leading fashion brand."
+    },
+    {
+        "id": 2,
+        "title": "Apex Consulting",
+        "description": "A corporate website showcasing the company's services and expertise."
+    },
+    {
+        "id": 3,
+        "title": "Zen Yoga Studio",
+        "description": "A responsive website for a local yoga studio, featuring class schedules and online booking."
+    }
+]

@@ -1,3 +1,5 @@
+import SplitWithImage from '@/components/component/about'
+import GridBlurredBackdrop from '@/components/component/testamonials'
 import React from 'react'
 
 const page = () => {
@@ -5,9 +7,8 @@ const page = () => {
     <div>
 
 
-<h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <SplitWithImage />
+      <GridBlurredBackdrop />
     </div>
   )
 }
