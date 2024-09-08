@@ -192,7 +192,7 @@ export function AboutComponent() {
   )
 }
 
-function CheckIcon(props: SVGAngle)  {
+function CheckIcon(props: any)  {
   return (
     <svg
       {...props}
