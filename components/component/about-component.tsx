@@ -18,6 +18,7 @@ To read more about using these font, please visit the Next.js documentation:
 - Pages Directory: https://nextjs.org/docs/pages/building-your-application/optimizing/fonts
 **/
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
+import { ReactNode } from "react"
 
 export function AboutComponent() {
   return (
@@ -191,7 +192,7 @@ export function AboutComponent() {
   )
 }
 
-function CheckIcon(props) {
+function CheckIcon(props: SVGAngle)  {
   return (
     <svg
       {...props}

@@ -146,7 +146,7 @@ export default function GridBlurredBackdrop() {
                     fontFamily={'Work Sans'}
                     fontWeight={'bold'}
                     color={useColorModeValue('gray.700', 'gray.50')}>
-                    You&apos;re in good company
+                    Ste v dobrých rukách
                 </chakra.h1>
                 <chakra.h2
                     margin={'auto'}
@@ -154,11 +154,11 @@ export default function GridBlurredBackdrop() {
                     fontFamily={'Inter'}
                     fontWeight={'medium'}
                     color={useColorModeValue('gray.500', 'gray.400')}>
-                    See why over{' '}
+                   Pozrite si prečé {' '}
                     <chakra.strong color={useColorModeValue('gray.700', 'gray.50')}>
-                        150,000+
+                       si náš naši klienti vybrali
                     </chakra.strong>{' '}
-                    influencers use EEZY to manage their social media content!
+                    a čo o nás hovoria.
                 </chakra.h2>
             </Box>
             <SimpleGrid columns={{ base: 1, xl: 2 }} spacing={'20'} mt={16} mb={16} mx={'auto'}>

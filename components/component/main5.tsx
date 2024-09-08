@@ -54,14 +54,14 @@ Vývoj webových stránok špecializovaný na vytváranie vlastných, responzív
         <section className="w-full py-12 md:py-20 lg:py-28 flex justify-center bg-gray-900">
           <div className="container px-4 md:px-6 flex justify-center flex-col items-center">
             <div className="space-y-2 text-center">
-              <div className="inline-block rounded-lg bg-gray-700 px-3 py-1 text-sm text-gray-400">Naše Portfólio</div>
+              <div className="inline-block rounded-lg bg-gray-700 px-3 py-1 text-sm text-gray-400" id="portfolioHomePage">Naše Portfólio</div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-300">Projekty</h2>
               <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                
                 Prezrite naše na mieru vytvorené stránok pre našich klietntov. Od e-commerce až po branding, sme tu pre Vás.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12 justify-center">
+            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12 justify-center" >
               <Image
                 src="/webdev_ilu_2.png"
                 width={550}
@@ -138,13 +138,13 @@ Vývoj webových stránok špecializovaný na vytváranie vlastných, responzív
           <div className="container px-4 md:px-6 flex justify-center flex-col items-center">
             <div className="space-y-2 text-center">
               <div className="inline-block rounded-lg bg-gray-700 px-3 py-1 text-sm text-gray-400">Kontaktovať nás</div>
-              {/* <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-300">Get In Touch</h2> */}
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl text-gray-300">Spojme sa</h2>
               <p className="max-w-[900px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
 
                 Prirpavený naštartovať Váš projekt? Kontaktujte nás ešte dnes !
               </p>
             </div>
-            <form className="space-y-4 w-full max-w-md">
+            <form  id="contactForm" className="space-y-4 w-full max-w-md">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-400">
                   Meno, názov Firmy

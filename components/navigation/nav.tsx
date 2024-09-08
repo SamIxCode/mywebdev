@@ -15,10 +15,10 @@ const Nav = () => {
                     Rybar IT Solutions
                 </Link>
                 <nav className="ml-auto flex gap-4 sm:gap-6 justify-center">
-                <CustomLink href="#">Services</CustomLink>
-      <CustomLink href="#">Portfolio</CustomLink>
+                {/* <CustomLink href="#">Services</CustomLink> */}
+      <CustomLink href="/#portfolioHomePage" >Portfolio</CustomLink>
       <CustomLink href="/about">About</CustomLink>
-      <CustomLink href="#">Contact</CustomLink>
+      <CustomLink href="/#contactForm">Contact</CustomLink>
                 </nav>
             </div>
         </div>
