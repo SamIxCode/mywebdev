@@ -34,12 +34,12 @@ const Feature = ({ text, icon, iconBg }: FeatureProps) => {
 
 export default function SplitWithImage() {
     return (
-        <Container maxW={'5xl'} py={12} paddingY={"120px"}>
-            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10}>
+        <Container maxW={'5xl'} py={12} paddingY={"120px"}  pt={10}>
+            <SimpleGrid columns={{ base: 1, md: 2 }} spacing={10} bg='gray.600' mt={'100px'} p={6} rounded={'lg'} boxShadow='2xl'>
                 <Stack spacing={4}>
                     <Text
                         textTransform={'uppercase'}
-                        color={'blue.400'}
+                        color={'blue.200'}
                         fontWeight={600}
                         fontSize={'sm'}
                         bg={useColorModeValue('blue.500', 'blue.900')}

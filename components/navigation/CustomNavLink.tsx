@@ -7,7 +7,10 @@ interface CustomLinkProps {
   children: ReactNode;
 }
 
-export const CustomLink = ({ href, children }: CustomLinkProps) => {
+export const CustomLink = (
+  { href, children }: CustomLinkProps
+
+) => {
   return (
     <Link
     

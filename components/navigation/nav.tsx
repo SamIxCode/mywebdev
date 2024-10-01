@@ -16,9 +16,9 @@ const Nav = () => {
                 </Link>
                 <nav className="ml-auto flex gap-4 sm:gap-6 justify-center">
                 {/* <CustomLink href="#">Services</CustomLink> */}
-      <CustomLink href="/#portfolioHomePage" >Portfolio</CustomLink>
-      <CustomLink href="/about">About</CustomLink>
-      <CustomLink href="/#contactForm">Contact</CustomLink>
+      <CustomLink href="/#portfolioHomePage" >Portfólio</CustomLink>
+      <CustomLink href="/about">O nás</CustomLink>
+      <CustomLink href="/#contactForm">Kontakt</CustomLink>
                 </nav>
             </div>
         </div>
