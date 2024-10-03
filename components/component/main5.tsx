@@ -9,7 +9,7 @@ import { Button } from "@/components/ui/button"
 export function Main5() {
   return (
     <div className="flex flex-col min-h-[100dvh] bg-gray-800"> {/* Fixed the className typo */}
-      <div className="flex-1 pt-32">
+      <div className="flex-1 pt-25">
 
         <section className="w-full py-1 md:py-20 lg:py-28 xl:py-36 flex justify-center bg-gray-800">
           <div className="container px-4 md:px-6 flex justify-center">
@@ -107,14 +107,15 @@ Vývoj webových stránok špecializovaný na vytváranie vlastných, responzív
                 delivering top-notch web solutions.
               </p>
             </div>
-            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12 justify-center">
-              <Image
-                src="/placeholder.svg"
-                width={550}
-                height={310}
-                alt="Team Member"
-                className="mx-auto aspect-video overflow-hidden rounded-2xl object-cover object-center sm:w-full"
-              />
+            <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 lg:grid-cols-2 lg:gap-12 justify-center ">
+            <img
+  src="/1661262230573.jpg"
+  
+  width={200}
+  alt="Team Member"
+  className="mx-auto max-h-[600px] max-w-[600px] overflow-hidden rounded-2xl object-cover object-center  "
+/>
+
               <div className="flex flex-col justify-center space-y-4 items-center">
                 <div className="grid gap-1 text-center">
                   <h3 className="text-xl font-bold text-gray-300">Samuel Rybár</h3>
@@ -124,13 +125,13 @@ Vývoj webových stránok špecializovaný na vytváranie vlastných, responzív
               </div>
             </div>
             <div className="flex justify-center">
-              <Link
+              {/* <Link
                 href="#"
                 className="text-sm font-medium hover:underline underline-offset-4 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
                 prefetch={false}
               >
                 Viac o nás
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
