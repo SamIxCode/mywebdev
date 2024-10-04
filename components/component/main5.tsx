@@ -87,13 +87,13 @@ Vývoj webových stránok špecializovaný na vytváranie vlastných, responzív
               </div>
             </div>
             <div className="flex justify-center">
-              <Link
+              {/* <Link
                 href="#"
                 className="text-sm font-medium hover:underline underline-offset-4 text-gray-600 dark:text-gray-400 hover:text-gray-800 dark:hover:text-gray-300"
                 prefetch={false}
               >
                 Prezrieť celé portfólio
-              </Link>
+              </Link> */}
             </div>
           </div>
         </section>
